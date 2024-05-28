@@ -57,6 +57,7 @@ repositories {
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+    implementation fg.deobf('curse.maven:daves-potioneering-639653:5075189')
 }
 
 sourceSets {
@@ -113,8 +114,18 @@ publishing {
         }
     }
     repositories {
-        maven {
+        /*maven {
             url "file://${project.projectDir}/mcmodsrepo"
+        }*/
+        exclusiveContent {
+            forRepository {
+                maven {
+                    url "https://cursemaven.com"
+                }
+            }
+            filter {
+                includeGroup "curse.maven"
+            }
         }
     }
 }
