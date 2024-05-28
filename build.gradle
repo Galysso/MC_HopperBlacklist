@@ -72,7 +72,7 @@ sourceSets {
 
 mixin {
     add sourceSets.main, 'mixins.examplemod.refmap.json'
-    config 'src/main/resources/mixins.examplemod.json'
+    config 'mixins.examplemod.json'
 }
 
 tasks.named('processResources', ProcessResources).configure {
