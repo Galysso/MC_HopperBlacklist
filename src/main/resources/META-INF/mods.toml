@@ -5,7 +5,7 @@ license="${mod_license}"
 #issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
 
 [[mods]] #mandatory
-modId="examplemod" #mandatory
+modId="codicraft_tweaks" #mandatory
 version="${mod_version}" #mandatory
 displayName="${mod_name}" #mandatory
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
@@ -23,7 +23,7 @@ authors="${mod_authors}" #optional
 #displayTest="MATCH_VERSION" # MATCH_VERSION is the default if nothing is specified (#optional)
 
 description='''${mod_description}'''
-[[dependencies.examplemod]] #optional
+[[dependencies.codicraft_tweaks]] #optional
     modId="forge" #mandatory
     mandatory=true #mandatory
     versionRange="${forge_version_range}" #mandatory
@@ -31,7 +31,7 @@ description='''${mod_description}'''
     side="BOTH"
 
 # Here's another dependency
-[[dependencies.examplemod]]
+[[dependencies.codicraft_tweaks]]
     modId="minecraft"
     mandatory=true
     versionRange="${minecraft_version_range}"

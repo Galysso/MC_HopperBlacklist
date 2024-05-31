@@ -1,4 +1,4 @@
-package com.example.examplemod.mixin;
+package galysso.codicraft.tweaks.mixin;
 
 import com.lion.villagersplus.blockentities.AlchemistTableBlockEntity;
 import net.minecraft.core.BlockPos;

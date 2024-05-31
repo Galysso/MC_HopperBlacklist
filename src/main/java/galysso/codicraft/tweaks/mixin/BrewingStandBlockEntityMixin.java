@@ -1,4 +1,4 @@
-package com.example.examplemod.mixin;
+package galysso.codicraft.tweaks.mixin;
 
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.ItemStack;

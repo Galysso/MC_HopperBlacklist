@@ -1,4 +1,4 @@
-package com.example.examplemod.mixin;
+package galysso.codicraft.tweaks.mixin;
 
 import net.minecraft.world.item.ItemStack;
 import org.spongepowered.asm.mixin.Mixin;

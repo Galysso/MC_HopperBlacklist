@@ -81,8 +81,8 @@ sourceSets {
 }
 
 mixin {
-    add sourceSets.main, 'mixins.examplemod.refmap.json'
-    config 'mixins.examplemod.json'
+    add sourceSets.main, 'mixins.codicraft_tweaks.refmap.json'
+    config 'mixins.codicraft_tweaks.json'
 }
 
 tasks.named('processResources', ProcessResources).configure {
