@@ -65,10 +65,8 @@ dependencies {
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
     implementation fg.deobf('curse.maven:daves-potioneering-639653:5075189')
     implementation fg.deobf('curse.maven:geckolib-388172:5190346')
-    implementation fg.deobf('curse.maven:sinytra-connector-890127:5299502')
-    implementation fg.deobf('curse.maven:forgified-fabric-api-889079:5269956')
-    //implementation fg.deobf('curse.maven:betternether-311377:4971478')
-    //implementation fg.deobf('curse.maven:bclib-495191:4971470')
+    implementation fg.deobf('curse.maven:villagersplus-forge-817272:4996995')
+    implementation fg.deobf('curse.maven:create-328085:4835191')
 }
 
 sourceSets {

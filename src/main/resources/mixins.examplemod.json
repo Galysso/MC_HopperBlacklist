@@ -7,7 +7,7 @@
   "mixins": [
     "BrewingStandBlockEntityMixin",
     "DavesPotioneering_BrewingHandlerMixin",
-    "SidedInvWrapperMixin"
+    "VillagersPlus_AlchemistTableBlockEntityMixin"
   ],
   "client": [],
   "server": []
